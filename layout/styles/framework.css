@@ -23,7 +23,6 @@ html, body{
 *, *::before, *::after{
     box-sizing:border-box;
 }
-
 .bold{
     font-weight:bold;
 }
@@ -93,7 +92,6 @@ text-transform:uppercase;
     border-radius:50%; 
     background-clip:padding-box;
 }
-
 .btn, button.btn{
     display:inline-block; 
     padding:8px 25px 10px; 
@@ -105,7 +103,6 @@ text-transform:uppercase;
 button.btn{
     cursor:pointer;
 }
-
 .clear, .group{
     display:block;
 }
@@ -116,12 +113,10 @@ button.btn{
 .clear, .clear::after, .group, .group::after{
     clear:both;
 }
-
 a{
     outline:none; 
     text-decoration:none;
 }
-
 .fl_left, .imgl{
     float:left;
 }
@@ -223,7 +218,7 @@ label{
 }
 ::placeholder{
     opacity:1;
-}/* Makes sure the placeholder text is not transparent */
+}
 
 
 /* Generalise
@@ -250,7 +245,6 @@ hr{
     border:solid; 
     border-width:1px 0 0 0
 }
-
 .font-xs{
     font-size: 1.15rem;
 }
@@ -265,7 +259,6 @@ hr{
     font-size:2.8rem; 
     line-height:normal;
 }
-
 .wrapper{
     display:block; 
     position:relative; 
@@ -275,10 +268,6 @@ hr{
     text-align:left; 
     word-wrap:break-word;
 }
-/*
-The "hoc" class is a generic class used to centre a containing element horizontally
-It should be used in conjunction with a second class or ID
-*/
 .hoc{
     display:block; 
     margin:0 auto;
@@ -297,17 +286,15 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 /* Grid - RS-MQF 1140 V.2 - https://www.os-templates.com/free-basic-html5-templates/rs-mqf-1140
 --------------------------------------------------------------------------------------------------------------- */
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{
-    display:inline-block; 
+    display:block; 
     float:left; 
     margin:0 0 0 4.21052%; 
     list-style:none;
 }
-
 .first{
     margin-left:0; 
     clear:left;
 }
-
 .one_quarter{
     width:21.8421%;
 }
@@ -345,19 +332,21 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .btmspace-80{
     margin-bottom:80px;
 }
-
 .rgtspace-5{
     margin-right:5px;
 }
 .rgtspace-10{
-    margin-right:10px;}
+    margin-right:10px;
+}
 .rgtspace-15{
-    margin-right:15px;}
+    margin-right:15px;
+}
 .rgtspace-20{
-    margin-right:20px;}
+    margin-right:20px;
+}
 .rgtspace-30{
-    margin-right:30px;}
-
+    margin-right:30px;
+}
 .inspace-5{
     padding:5px;
 }
