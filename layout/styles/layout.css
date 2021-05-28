@@ -11,6 +11,7 @@ File: Layout CSS
 
 @import url("fontawesome-free/css/all.css");
 @import url("framework.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=News+Cycle&family=Roboto:wght@100&display=swap');
 
 
 /* Header
@@ -115,7 +116,9 @@ File: Layout CSS
 }
 #services li article footer{
 	margin-top:20px;
-	color: black;
+	color: #474747;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 /* Points */
@@ -695,10 +698,11 @@ td{
 --------------------------------------------------------------------------------------------------------------- */
 body{
 	color:#FFFFFF; 
-	background-color:#026B8A;
+	background-color:#360404;
 }
 a{
-	color:#0AC6FC;}
+	color:#f5be59;
+}
 a:active, a:focus{
 	background:transparent !important;
 }/* IE10 + 11 Bugfix - prevents grey background */
@@ -706,11 +710,11 @@ hr, .borderedbox{
 	border-color:#D7D7D7;
 }
 label span{
-	color:#FF0000; 
+	color:#f5be59; 
 	background-color:inherit;
 }
 input:focus, textarea:focus, *:required:focus{
-	border-color:#0AC6FC !important;
+	border-color:#f5be59 !important;
 }
 
 .overlay{
@@ -728,8 +732,8 @@ input:focus, textarea:focus, *:required:focus{
 
 .btn, .btn.inverse:hover{
 	color:#FFFFFF; 
-	background-color:#0AC6FC; 
-	border-color:#0AC6FC;
+	background-color:#f5be59; 
+	border-color: #f5be59; 
 }
 .btn:hover, .btn.inverse{
 	color:inherit; 
@@ -751,7 +755,7 @@ input:focus, textarea:focus, *:required:focus{
 }
 .row1{
 	color:#FFFFFF; 
-	background-color:#026B8A;
+	background-color:#220202;
 }
 .row2{
 	color:#474747; 
@@ -763,18 +767,18 @@ input:focus, textarea:focus, *:required:focus{
 }
 .row4{
 	color:#FFFFFF; 
-	background-color:#01546B;
+	background-color:#360404;
 }
 .row5, .row5 a{
 	color:#FFFFFF; 
-	background-color:#01546B;
+	background-color:#360404;
 }
 
 
 /* Header */
 #header{
 	color:#FFFFFF; 
-	background-color:#01546B;
+	background-color:#360404;
 }
 #header #logo a{
 	color:inherit;
@@ -782,7 +786,7 @@ input:focus, textarea:focus, *:required:focus{
 
 /* Content */
 #services li article{
-	border-color:#0AC6FC;
+	border-color:#f5be59;
 }
 #services li article a{
 	color:inherit;
@@ -790,11 +794,11 @@ input:focus, textarea:focus, *:required:focus{
 
 #services li article > a > i{
 	color:#FFFFFF; 
-	background-color:#01546B; 
+	background-color:#360404; 
 	border-color:rgba(0,0,0,.1);
 }
 #services li article > a > i:hover{
-	background-color:#0AC6FC;
+	background-color:#f5be59;
 }
 
 #points{
@@ -802,12 +806,13 @@ input:focus, textarea:focus, *:required:focus{
 	background-color:#FFFFFF;
 }
 #points li span{
-	color:#FFFFFF; 
+	color:#474747; 
 	font-size: 17px;
-	background-color:rgba(10,198,252,.7)/* #0AC6FC */;
+	background-color:#f5be59;
 }
 #points li:hover span{
-	background-color:#01546B;
+	background-color:#360404;
+	color:#FFFFFF;
 }
 
 #latest article figure figcaption .meta li{
@@ -821,22 +826,24 @@ input:focus, textarea:focus, *:required:focus{
 	font-size: 2.5rem;
 }
 #footer hr, #footer .borderedbox, #footer .linklist li{
-	border-color:rgba(255,255,255,.1);
+	border-color:rgb(255, 240, 216);
 }
 
 #footer input, #footer button{
 	border-color:transparent;
 }
 #footer input{
-	color:#FFFFFF; 
+	color:#474747; 
+	font-weight: bold;
 	background-color:rgba(255,255,255,.2);
 }
 #footer input:focus{
-	background-color:#0AC6FC;
+	background-color:#f5be59;
 }
 #footer button{
-	color:#FFFFFF; 
-	background-color:#0AC6FC;
+	color:#474747; 
+	background-color:#f5be59;
+	font-weight: bold;
 }
 #footer button:hover{
 	color:inherit; 
@@ -848,7 +855,8 @@ input:focus, textarea:focus, *:required:focus{
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{
-	color:#0AC6FC; background-color:inherit;
+	color:#f5be59; 
+	background-color:inherit;
 }
 #mainav li li a, #mainav .active li a{
 	color:#FFFFFF; 
@@ -857,7 +865,7 @@ input:focus, textarea:focus, *:required:focus{
 }
 #mainav li li:hover > a, #mainav .active .active > a{
 	color:#FFFFFF; 
-	background-color:#0AC6FC;
+	background-color:#f5be59;
 }
 #mainav form select{
 	color:#474747; 
@@ -870,7 +878,7 @@ input:focus, textarea:focus, *:required:focus{
 	background-color:inherit;
 }
 #breadcrumb li:last-child a{
-	color:#0AC6FC;
+	color:#f5be59;
 }
 
 .container .sidebar nav a{
@@ -878,7 +886,7 @@ input:focus, textarea:focus, *:required:focus{
 	border-color:#D7D7D7;
 }
 .container .sidebar nav a:hover{
-	color:#0AC6FC;
+	color:#f5be59;
 }
 
 .pagination a, .pagination strong{
@@ -886,12 +894,12 @@ input:focus, textarea:focus, *:required:focus{
 }
 .pagination .current *{
 	color:#FFFFFF; 
-	background-color:#0AC6FC;
+	background-color:#f5be59;
 }
 
 #backtotop{
 	color:#FFFFFF; 
-	background-color:#0AC6FC;
+	background-color:#f5be59;
 }
 
 
@@ -902,6 +910,7 @@ input:focus, textarea:focus, *:required:focus{
 	width: 25%;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom:20px;
   }
   
   /* Style the images inside the grid */
